@@ -254,14 +254,28 @@ form {
   padding: 20px;
 }
 
-.nav {
+.navigation {
   list-style-type:none;
   margin:0;
   padding:0;
+}
+.navigation-item {
   display:inline;
   float:left;
   display:block;
-  width:60px;
+  font-weight:bold;
+  background-color:#0090ff;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  font-weight: 700;
+}
+.navigation-link {
+  color: #ffffff;
 }
 
 /*******************************************************************************
