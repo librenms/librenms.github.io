@@ -254,6 +254,16 @@ form {
   padding: 20px;
 }
 
+.nav {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  display:inline;
+  float:left;
+  display:block;
+  width:60px;
+}
+
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
