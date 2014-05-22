@@ -29,6 +29,25 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+.bold {
+  font-weight:bold;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.faq-text {
+  color: #ffffff;
+text-indent:-10px;
+margin-left:10px
+}
+
+.text-indent {
+  text-indent:-10px;
+  margin-left:10px
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -158,7 +177,6 @@ p img {
 }
 
 pre, code {
-  width: 100%;
   color: #222;
   background-color: #fff;
 
