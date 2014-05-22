@@ -1,0 +1,27 @@
+- title: How do I add a device?
+  group: Getting started
+  content: "You have two options for adding a new device into LibreNMS.<br />
+
+           1. Using the command line via ssh you can add a new device by changing to the directory of your LibreNMS install and typing (be sure to put the correct details).<br /><br />
+              <code>./addhost.php <hostname> [community] [v1|v2c] [port] [udp|udp6|tcp|tcp6]</code><br /><br />
+
+           2. Using the web interface, go to Devices and then Add Device. Enter the details required for the device that you want to add and then click 'Add Host'."
+
+- title: How do I install LibreNMS?
+  group: Getting started
+  content: "This is currently well documented within the doc folder of the installation files.<br />
+           
+           For Debian / Ubuntu installs follow https://github.com/librenms/librenms/blob/master/doc/INSTALL.md<br /><br />
+
+           For RedHat / CentOS installs follow https://github.com/librenms/librenms/blob/master/doc/INSTALL_RHEL.md<br />"
+
+- title: How do I get help?
+  group: Getting started
+  content: "We have a few methods for you to get in touch to ask for help.<br />
+
+           Mailing list - https://groups.google.com/forum/#!forum/librenms-project<br /><br />
+
+           IRC - chat.freenode.net on channel ##librenms (Web chat is https://webchat.freenode.net/)<br /><br />
+
+           Bug Reports - https://github.com/librenms/librenms/issues.<br />"
+
