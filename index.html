@@ -3,9 +3,36 @@ layout: default
 title: LibreNMS
 ---
 
-   <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3><a name="welcome-to-librenms" class="anchor" href="#welcome-to-librenms"><span class="octicon octicon-link"></span></a>Welcome to LibreNMS.</h3>
-      </section>
+<div id="welcome-librenms" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#welcome-librenms" data-slide-to="0" class="active"></li>
+    <li data-target="#welcome-librenms" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img data-src="holder.js/900x600/auto/#777:#555/text:First slide" alt="">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Network Monitoring</h1>
+          <p>LibreNMS is an autodiscovering PHP/MySQL/SNMP based network monitoring which includes support for a wide range of network hardware and operating systems including Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP and many more.</p>
+          <p><a class="btn btn-lg btn-primary" href="https://github.com/librenms/librenms/" role="button">Install now</a></p>
+        </div>
+      </div>
     </div>
-
+    <div class="item">
+      <img data-src="holder.js/900x600/auto/#666:#444/text:Second slide" alt="">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Extensive device support</h1>
+          <p><img src="images/devices-list.png" border="0"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#welcome-librenms" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#welcome-librenms" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
