@@ -11,17 +11,17 @@
   group: Getting started
   content: "This is currently well documented within the doc folder of the installation files.<br />
            
-           For Debian / Ubuntu installs follow https://github.com/librenms/librenms/blob/master/doc/INSTALL.md<br /><br />
+           For Debian / Ubuntu installs follow <a href='https://github.com/librenms/librenms/blob/master/doc/INSTALL.md'>https://github.com/librenms/librenms/blob/master/doc/INSTALL.md</a><br /><br />
 
-           For RedHat / CentOS installs follow https://github.com/librenms/librenms/blob/master/doc/INSTALL_RHEL.md<br />"
+           For RedHat / CentOS installs follow <a href='https://github.com/librenms/librenms/blob/master/doc/INSTALL_RHEL.md'>https://github.com/librenms/librenms/blob/master/doc/INSTALL_RHEL.md</a><br />"
 
 - title: How do I get help?
   group: Getting started
   content: "We have a few methods for you to get in touch to ask for help.<br />
 
-           Mailing list - https://groups.google.com/forum/#!forum/librenms-project<br /><br />
+           Mailing list - <a href='https://groups.google.com/forum/#!forum/librenms-project'>ihttps://groups.google.com/forum/#!forum/librenms-project</a><br /><br />
 
-           IRC - chat.freenode.net on channel ##librenms (Web chat is https://webchat.freenode.net/)<br /><br />
+           IRC - chat.freenode.net on channel ##librenms (Web chat is <a href='https://webchat.freenode.net/'>https://webchat.freenode.net/</a>)<br /><br />
 
-           Bug Reports - https://github.com/librenms/librenms/issues.<br />"
+           Bug Reports - <a href='https://github.com/librenms/librenms/issues'>https://github.com/librenms/librenms/issues</a>.<br />"
 
