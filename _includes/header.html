@@ -19,6 +19,18 @@
   </head>
 
   <body>
+<script type="text/javascript">
+  $.getJSON('https://api.github.com/repos/librenms/librenms/pulls?callback=?', function(data) {
+    var repo_open = data['data']['length'];
+    $("#pulls").html(repo_open + ' open pulls');
+  });
+</script>
+<script type="text/javascript">
+  $.getJSON('https://api.github.com/repos/librenms/librenms/issues?callback=?', function(data) {
+    var issues_open = data['data']['length'];
+    $("#issues").html(issues_open + ' open issues');
+  });
+</script>
     <div class="navbar-wrapper">
       <div class="container">
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -36,11 +48,22 @@
               <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
                 <li><a href="/faq.html">Faqs</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://twitter.com/librenms">Twitter</a></li>
+                    <li><a href="https://groups.google.com/forum/#!forum/librenms-project">Mailing list</a></li>
+                  </ul>
+                </li>
                 <li><a href="https://github.com/librenms/librenms/">View on GitHub</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><button class="btn btn-info btn-xs" href="https://github.com/librenms/librenms/issues" role="button" id="issues"></button></li>
+                <li><button class="btn btn-info btn-xs" href="https://github.com/librenms/librenms/pulls" role="button" id="pulls"></button></li>
+                <li><a href="https://twitter.com/share" data-via="librenms" class="twitter-share-button" >Tweet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container marketing">
