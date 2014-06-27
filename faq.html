@@ -3,42 +3,23 @@ layout: default
 title: LibreNMS - Frequently asked questions
 ---
 
-<div class="row">
-  <div class="col-lg-12">
-    &nbsp;
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-12">
-    &nbsp;
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-12">
-    &nbsp;
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-12">
 {% assign questions = site.data.faq | sort: 'group' %}
 {% for faq in questions %}
 {% capture curgroup %}{{faq.group}}{% endcapture %}
 {% if curgroup != group %}
-  {% unless forloop.first %}</ul>{% endunless %}
   <h3 class="white text-indent">{{ curgroup }}</h3>
   <ul>
   {% capture group %}{{curgroup}}{% endcapture %}
 {% endif %}
   <li><a href="#{{ faq.title }}">{{ faq.title }}</a></li>
 {% endfor %}
-<br /><br />
+  </ul>
+  <hr>
 {% for faq in site.data.faq %}
 
 <div class="faq-text">
 <a name="{{ faq.title }}"></a><b class="faq-text bold">{{ faq.title }}</b><br /><br />
-{{ faq.content }}<h2>&nbsp;</h2><br /><br />
+{{ faq.content }}<h2>&nbsp;</h2>
 </div>
 
 {% endfor %}
-  </div>
-</div>
