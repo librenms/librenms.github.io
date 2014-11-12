@@ -4,6 +4,22 @@ title: LibreNMS - CHANGELOG
 ---
 
 <pre>
+Nov 2014
+
+ Bug fixes
+  - Updated Alcatel-Lucent OmniSwitch detection (PR340)
+  - Added fix for DLink port detection (PR347)
+  - Fixed BGP session count (PR334)
+  - Fixed errors with BGP polling and storing data in RRD (PR346)
+
+ Improvements
+  - Added option to clean old perf_times table entries (PR343)
+  - Added nginx+php-fpm instructions (PR345)
+  - Added BGP route to API (PR335)
+  - Updated check_mk to new version + removed Observium branding (PR311)
+  - Updated Edit SNMP settings page for device to only show relevant SNMP options (PR317)
+  - Eventlog page now uses paged results (PR336)
+
 Oct 2014
 
  Bug fixes
@@ -19,6 +35,7 @@ Oct 2014
   - Fixed web installer issue due to variable name change (PR325)
   - Updated disabled field in api tokens (PR327)
   - Fixed daily.sh not running from outside install directory (cron) (PR328)
+  - Removed --no-edit from daily.php git pull (PR309)
 
  Improvements
   - Added ability to create api tokens (PR294)
@@ -33,6 +50,7 @@ Oct 2014
   - Added route to call list of API endpoints (PR315)
   - Added options to $config to specify fping retry and timeout (PR323)
   - Added icmp / snnmp to device down alerts for debugging (PR324)
+  - Added function to page results for large result pages (PR333)
 
 Sep 2014
 
