@@ -11,9 +11,9 @@
   group: Getting started
   content: "This is currently well documented within the doc folder of the installation files.<br />
            
-           For Debian / Ubuntu installs follow <a href='https://github.com/librenms/librenms/blob/master/doc/INSTALL.md'>https://github.com/librenms/librenms/blob/master/doc/INSTALL.md</a><br /><br />
+           For Debian / Ubuntu installs follow <a href='http://docs.librenms.org/Installation/Installation-%28Debian-Ubuntu%29/'>http://docs.librenms.org/Installation/Installation-(Debian-Ubuntu)</a><br /><br />
 
-           For RedHat / CentOS installs follow <a href='https://github.com/librenms/librenms/blob/master/doc/INSTALL_RHEL.md'>https://github.com/librenms/librenms/blob/master/doc/INSTALL_RHEL.md</a><br />"
+           For RedHat / CentOS installs follow <a href='http://docs.librenms.org/Installation/Installation-%28RHEL-CentOS%29/'>http://docs.librenms.org/Installation/Installation-(RHEL-CentOS)</a><br />"
 
 - title: How do I get help?
   group: Getting started
