@@ -4,12 +4,26 @@ title: LibreNMS - CHANGELOG
 ---
 
 <pre>
+Feb 2015
+ Bug fixes
+  - Removed header redirect causing page load delays (PR436)
+
+ Improvements
+  - Added support for Cisco Wireless Controllers (PR422)
+  - Updated IRC Bot to support alerting system (PR434)
+  - Added new message box to alert when a device hasn't polled for 15 minutes or more (PR435)
+  - Added quick links on device list page to quickly access common pages (PR440)
+  - Alerting docs updated to cover new features (PR446)
+  - IBM NOS Support added (PR454)
+
 Jan 2015
 
  Bug fixes
   - Reverted chmod to make poller.php executable again (PR394)
   - Fixed duplicate port listing (PR396)
   - Fixed create bill from port page (PR404)
+  - Fixed autodiscovery to use $config['mydomain'] correctly (PR423)
+  - Fixed mute bug for alerts (PR428)
 
  Improvements
   - Updated login page visually (PR391)
@@ -20,6 +34,11 @@ Jan 2015
   - Added missing default nginx graphs (PR403)
   - Updated check_mk_agent to latest git version (PR409)
   - Added support for recording process list with unix agent (PR410)
+  - Added support for named/bind9/TinyDNS application using unix agent (PR413, PR416)
+  - About page tidied up (PR414, PR425)
+  - Updated progress bars to use bootstrap (PR42)
+  - Updated install docs to cover CentOS7 (PR424)
+  - Alerting system updated with more features (PR429, PR430)
 
 Dec 2014
 
