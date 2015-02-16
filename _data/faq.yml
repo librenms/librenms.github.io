@@ -1,5 +1,4 @@
 - title: Getting started
-  subcategories: 
     items:
       title: How do I install LibreNMS?
       content: "This is currently well documented within the doc folder of the installation files.<br />
@@ -26,7 +25,6 @@
                Bug Reports - <a href='https://github.com/librenms/librenms/issues'>https://github.com/librenms/librenms/issues</a>.<br />"
 
 - title: Support
-  subcategories:
     items:
       title: Why do I get blank pages sometimes in the WebUI?
       content: "<p>The first thing to do is to add /debug=yes/ to the end of the URI (I.e /devices/debug=yes/).</p>
@@ -34,7 +32,6 @@
                <p>If the page you are trying to load has a substantial amount of data in it then it could be that the php memory limit needs to be increased in php.ini and then your web service reloaded.</p>"
 
 - title: Developing
-  subcategories:
     items:
       title: How do I add support for a new OS?
       content: "<p>The easiest way to show you how to do that is to link to an existing pull request that has been merged in on <a href='https://github.com/librenms/librenms/pull/352/files' target='blank'>GitHub</a></p>
