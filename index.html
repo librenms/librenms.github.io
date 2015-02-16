@@ -7,6 +7,7 @@ title: LibreNMS
   <ol class="carousel-indicators">
     <li data-target="#welcome-librenms" data-slide-to="0" class="active"></li>
     <li data-target="#welcome-librenms" data-slide-to="1"></li>
+    <li data-target="#welcome-librenms" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="item active">
@@ -14,7 +15,7 @@ title: LibreNMS
         <div class="carousel-caption">
           <h1>Network Monitoring</h1>
           <p>LibreNMS is an autodiscovering PHP/MySQL/SNMP based network monitoring which includes support for a wide range of network hardware and operating systems including Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP and many more.</p>
-          <img src="images/demo-graph.png" alt="Demo Graph"><br />
+          <p><img src="images/demo-graph.png" alt="Demo Graph"></p>
           <p><a class="btn btn-lg btn-primary" href="/downloads.html" role="button">Download now</a></p>
         </div>
       </div>
@@ -24,6 +25,40 @@ title: LibreNMS
         <div class="carousel-caption">
           <h1>Extensive device support</h1>
           <p><img src="images/devices-list.png" alt="Devices"></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container-fluid">
+        <div class="carousel-caption">
+          <h1>Full API for external integration</h1>
+          <p><pre>
+curl -H "X-Auth-Token: be8756e12d5de10cc397471da634a3fe" https://librenms.example.org/api/v0
+{
+    "list_bgp": "https://librenms.example.org/api/v0/bgp",
+    "del_device": "https://librenms.example.org/api/v0/devices/:hostname",
+    "get_device": "https://librenms.example.org/api/v0/devices/:hostname",
+    "get_vlans": "https://librenms.example.org/api/v0/devices/:hostname/vlans",
+    "get_graphs": "https://librenms.example.org/api/v0/devices/:hostname/graphs",
+    "get_port_graphs": "https://librenms.example.org/api/v0/devices/:hostname/ports",
+    "get_graph_generic_by_hostname": "https://librenms.example.org/api/v0/devices/:hostname/:type",
+    "get_port_stats_by_port_hostname": "https://librenms.example.org/api/v0/devices/:hostname/ports/:ifname",
+    "get_graph_by_port_hostname": "https://librenms.example.org/api/v0/devices/:hostname/ports/:ifname/:type",
+    "list_devices": "https://librenms.example.org/api/v0/devices",
+    "add_device": "https://librenms.example.org/api/v0/devices",
+    "get_graph_by_portgroup": "https://librenms.example.org/api/v0/portgroups/:group",
+    "get_bill": "https://librenms.example.org/api/v0/bills/:bill_id",
+    "list_bills": "https://librenms.example.org/api/v0/bills",
+    "get_alert": "https://librenms.example.org/api/v0/alerts/:id",
+    "ack_alert": "https://librenms.example.org/api/v0/alerts/:id",
+    "list_alerts": "https://librenms.example.org/api/v0/alerts",
+    "get_alert_rule": "https://librenms.example.org/api/v0/rules/:id",
+    "delete_rule": "https://librenms.example.org/api/v0/rules/:id",
+    "list_alert_rules": "https://librenms.example.org/api/v0/rules",
+    "add_rule": "https://librenms.example.org/api/v0/rules",
+    "edit_rule": "https://librenms.example.org/api/v0/rules"
+}
+          </pre></p>
         </div>
       </div>
     </div>
