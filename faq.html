@@ -6,14 +6,14 @@ title: LibreNMS - Frequently asked questions
 {% for entry in site.data.faq %}
     <h3 class="white text-indent">{{ entry.title }}</h3>
     <ul>
-    {% for item in subcategory.items %}
+    {% for item in subcategories.items %}
         <li><a href="#{{ item.title }}">{{ item.title }}</a></li>
     {% endfor %}
   </ul>
 {% endfor %}
   <hr>
 {% for faq in site.data.faq %}
-    {% for item in subcategory.items %}
+    {% for item in subcategories.items %}
 <div class="faq-text">
     <a name="{{ item.title }}"></a><b class="faq-text bold">{{ item.title }}</b><br /><br />
     {{ item.content }}<h2>&nbsp;</h2>
