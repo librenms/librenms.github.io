@@ -15,7 +15,7 @@ title: LibreNMS - Frequently asked questions
 {% for entry in site.data.faq %}
     {% for item in entry.items %}
 <div class="faq-text">
-    <a name="{{ item.title }}"></a><b class="faq-text bold">{{ item.title }}</b><br /><br />
+    <a name="{{ item.title }}"></a><b class="faq-text bold"><highlight>{{ item.title }}</highlight></b><br /><br />
     {{ item.content }}<h2>&nbsp;</h2>
 </div>
     {% endfor %}
