@@ -32,33 +32,7 @@ title: LibreNMS
       <div class="container-fluid">
         <div class="carousel-caption">
           <h1>Full API for external integration</h1>
-          <p><pre>
-curl -H "X-Auth-Token: be8756e12d5de10cc397471da634a3fe" https://librenms.example.org/api/v0
-{
-    "list_bgp": "https://librenms.example.org/api/v0/bgp",
-    "del_device": "https://librenms.example.org/api/v0/devices/:hostname",
-    "get_device": "https://librenms.example.org/api/v0/devices/:hostname",
-    "get_vlans": "https://librenms.example.org/api/v0/devices/:hostname/vlans",
-    "get_graphs": "https://librenms.example.org/api/v0/devices/:hostname/graphs",
-    "get_port_graphs": "https://librenms.example.org/api/v0/devices/:hostname/ports",
-    "get_graph_generic_by_hostname": "https://librenms.example.org/api/v0/devices/:hostname/:type",
-    "get_port_stats_by_port_hostname": "https://librenms.example.org/api/v0/devices/:hostname/ports/:ifname",
-    "get_graph_by_port_hostname": "https://librenms.example.org/api/v0/devices/:hostname/ports/:ifname/:type",
-    "list_devices": "https://librenms.example.org/api/v0/devices",
-    "add_device": "https://librenms.example.org/api/v0/devices",
-    "get_graph_by_portgroup": "https://librenms.example.org/api/v0/portgroups/:group",
-    "get_bill": "https://librenms.example.org/api/v0/bills/:bill_id",
-    "list_bills": "https://librenms.example.org/api/v0/bills",
-    "get_alert": "https://librenms.example.org/api/v0/alerts/:id",
-    "ack_alert": "https://librenms.example.org/api/v0/alerts/:id",
-    "list_alerts": "https://librenms.example.org/api/v0/alerts",
-    "get_alert_rule": "https://librenms.example.org/api/v0/rules/:id",
-    "delete_rule": "https://librenms.example.org/api/v0/rules/:id",
-    "list_alert_rules": "https://librenms.example.org/api/v0/rules",
-    "add_rule": "https://librenms.example.org/api/v0/rules",
-    "edit_rule": "https://librenms.example.org/api/v0/rules"
-}
-          </pre></p>
+          <p><img src="images/api-example.png" alt="API Example" width="750" height="258"></p>
         </div>
       </div>
     </div>
