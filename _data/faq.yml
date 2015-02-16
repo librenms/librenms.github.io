@@ -24,6 +24,17 @@
 
                Bug Reports - <a href='https://github.com/librenms/librenms/issues'>https://github.com/librenms/librenms/issues</a>.<br />"
 
+    - title: What are the supported OS' for installing LibreNMS on?
+      content: "<p>Supported is quite a strong word :) The 'officially' supported distros are:</p>
+
+               <ul>
+                   <li>Ubuntu / Debian</li>
+                   <li>Red Hat / CentOS</li>
+                   <li>Gentoo</li>
+               </ul>
+
+               <p>However we will always aim to help wherever possible so if you are running a distro that isn't one of the above then give it a try anyway and if you need help then jump on the irc channel.</p>"
+
 - title: Support
   items:
     - title: Why do I get blank pages sometimes in the WebUI?
