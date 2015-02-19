@@ -35,6 +35,9 @@
 
                <p>However we will always aim to help wherever possible so if you are running a distro that isn't one of the above then give it a try anyway and if you need help then jump on the irc channel.</p>"
 
+    - title: Do you have a demo available?
+      content: "We do indeed, you can find access to the demo <a href="http://demo.librenms.org" target="_blank">here</a>."
+
 - title: Support
   items:
     - title: Why do I get blank pages sometimes in the WebUI?
