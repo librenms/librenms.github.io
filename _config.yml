@@ -1,0 +1,59 @@
+url: https://laf.github.io
+baseurl: /agency-jekyll-theme
+
+# Site settings
+title: LibreNMS
+email: neil@lathwood.uk
+description: "LibreNMS is an autodiscovering PHP/MySQL-based network monitoring system."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: da223a
+  secondary: c91028
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Kay Garland
+  pic: 1
+  position: Lead Designer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Larry Parker
+  pic: 2
+  position: Lead Marketer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/librenms
+  - title: github
+    url: https://github.com/librenms/librenms
+
+# Build settings
+markdown: kramdown
+permalink: pretty
