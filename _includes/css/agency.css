@@ -874,5 +874,6 @@ body {
 
 .v-center {
     display: inline-block;
+    height: 10%;
     vertical-align: top;
 }
