@@ -871,3 +871,7 @@ body {
 .contact-text {
     color: #fff;
 }
+
+.v-center {
+    vertical-align: middle;
+}
