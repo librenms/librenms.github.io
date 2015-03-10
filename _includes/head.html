@@ -2,7 +2,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl }} " />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ "/img/favicon-152.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/img/favicon-144.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ "/img/favicon-120.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "/img/favicon-114.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ "/img/favicon-72.png" | prepend: site.baseurl }}">
+    <link rel="apple-touch-icon-precomposed" href="{{ "/img/favicon-57.png" | prepend: site.baseurl }}">
+    <link rel="icon" href="{{ "/img/favicon-32.png" | prepend: site.baseurl }} " sizes="32x32">
+    <meta name="msapplication-TileImage" content="{{ "/img/favicon-144.png" | prepend: site.baseurl }}">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
