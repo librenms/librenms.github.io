@@ -1,16 +1,17 @@
-      </div>
-    </div>
-  </div>
-      <footer>
+  <footer>
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <p><a href="#">Back to top</a></p>
-              <p>Copyright (C) 2013-2015 various <a href="http://github.com/librenms/librenms">LibreNMS</a> contributors</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.title }} 2013 - 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </body>
-</html>
+    </footer>

@@ -1,55 +1,21 @@
 ---
 layout: default
-title: LibreNMS
 ---
 
-<div id="welcome-librenms" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#welcome-librenms" data-slide-to="0" class="active"></li>
-    <li data-target="#welcome-librenms" data-slide-to="1"></li>
-    <li data-target="#welcome-librenms" data-slide-to="2"></li>
-    <li data-target="#welcome-librenms" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="item active">
-      <div class="container-fluid">
-        <div class="carousel-caption">
-          <h1>Network Monitoring</h1>
-          <p>LibreNMS is an autodiscovering PHP/MySQL/SNMP based network monitoring which includes support for a wide range of network hardware and operating systems including Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP and many more.</p>
-          <p><img src="images/demo-graph.png" alt="Demo Graph"></p>
-          <p><a class="btn btn-lg btn-primary" href="/downloads.html" role="button">Download now</a></p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="container-fluid">
-        <div class="carousel-caption">
-          <h1>Extensive device support</h1>
-          <p><img src="images/devices-list.png" alt="Devices"></p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="container-fluid">
-        <div class="carousel-caption">
-          <h1>Full API for external integration</h1>
-          <p><img src="images/api-example.png" alt="API Example" width="750" height="258"></p>
-        </div>
-      </div>
-    </div>
-    <div class="item">
-      <div class="container-fluid">
-        <div class="carousel-caption">
-          <h1>Customisable alerting system</h1>
-          <p><img src="images/alerts-example.png" alt="Alerting Example" width="1015" height="596"></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#welcome-librenms" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#welcome-librenms" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
 </div>
+

@@ -1,0 +1,23 @@
+url: http://www.librenms.org
+baseurl: /
+
+# Site settings
+title: LibreNMS
+description: "LibreNMS is an autodiscovering PHP/MySQL-based network monitoring system."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: da223a
+  secondary: c91028
+  secondary-dark: 333
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/librenms
+  - title: github
+    url: https://github.com/librenms/librenms
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,83 +1,55 @@
-<!DOCTYPE html>
-<html  lang="en">
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="LibreNMS">
-    <meta name="description" content="LibreNMS : a Free Software Network Management System" />
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-black">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="{{ "/img/LibreNMS-Logo-Black.png" | prepend: site.baseurl }}" alt="LibreNMS"></a>
+            </div>
 
-    <title>LibreNMS</title>
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/carousel.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/blueimp-gallery.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/styles.css">
-
-    <script src="javascripts/jquery.min.js"></script>
-    <script src="javascripts/bootstrap.min.js"></script>
-    <script src="javascripts/blueimp-gallery.min.js"></script>
-
-  </head>
-
-  <body>
-<script type="text/javascript">
-  $.getJSON('https://api.github.com/repos/librenms/librenms/pulls?callback=?', function(data) {
-    var repo_open = data['data']['length'];
-    $("#pulls").html(repo_open + ' open pulls');
-  });
-</script>
-<script type="text/javascript">
-  $.getJSON('https://api.github.com/repos/librenms/librenms/issues?callback=?', function(data) {
-    var issues_open = data['data']['length'];
-    $("#issues").html(issues_open + ' open issues');
-  });
-</script>
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navBar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">LibreNMS</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navBar">
-          <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/features.html">Features</a></li>
-            <!--<li><a href="/screenshots.html">Screenshots</a></li>-->
-            <li><a href="/changelog.html">Changelog</a></li>
-            <li><a href="/downloads.html">Downloads</a></li>
-            <li><a href="http://demo.librenms.org" target="_blank">Live Demo</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="/faq.html">Faqs</a></li>
-                    <li><a href="http://docs.librenms.org/">Docs</a></li>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#try">Try</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#downloads">Downloads</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#support">Support</a>
+                    </li>
+                    <li>
+                        <a href="http://docs.librenms.org">Docs</a>
+                    </li>
+                    <li>
+                        <a href="http://blog.librenms.org">Blog</a>
+                    </li>
                 </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://twitter.com/librenms">Twitter</a></li>
-                <li><a href="https://groups.google.com/forum/#!forum/librenms-project">Mailing list</a></li>
-              </ul>
-            </li>
-            <li><a href="http://blog.librenms.org/">Blog</a></li>
-            <li><a href="https://github.com/librenms/librenms/">View on GitHub</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><button class="btn btn-info btn-xs" href="https://github.com/librenms/librenms/issues" role="button" id="issues"></button></li>
-            <li><button class="btn btn-info btn-xs" href="https://github.com/librenms/librenms/pulls" role="button" id="pulls"></button></li>
-            <li><a href="https://twitter.com/share" data-via="librenms" class="twitter-share-button" >Tweet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
+        <!-- /.container-fluid -->
     </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12">
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome to LibreNMS, a fully featured network monitoring system that provides a wealth of features and device support.</div>
+                <a href="#features" class="page-scroll btn btn-xl">What can it do?</a>
+            </div>
+        </div>
+    </header>
+
+
