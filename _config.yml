@@ -1,5 +1,5 @@
 url: http://www.librenms.org
-baseurl: /
+baseurl: 
 
 # Site settings
 title: LibreNMS
