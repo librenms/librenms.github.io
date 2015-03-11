@@ -1,9 +1,8 @@
-url: https://laf.github.io
-baseurl: /librenms.github.io
+url: http://www.librenms.org
+baseurl: /
 
 # Site settings
 title: LibreNMS
-email: neil@lathwood.uk
 description: "LibreNMS is an autodiscovering PHP/MySQL-based network monitoring system."
 
 # Color settings (hex-codes without the leading hash-tag)
