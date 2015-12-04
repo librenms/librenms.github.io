@@ -13,6 +13,10 @@
   <description>This is the first notification. We will post these whenever an upcoming major change is about to happen.</description>
   <pubDate>Sun, 27 Sep 2015 15:50:00 +0000</pubDate>
  </item>
-
+ <item>
+  <title>Important update being released</title>
+  <description>We are releasing an important update within the next 24 hours which provides some additional functionality when running daily.sh. Whilst we have done everything we can to test this across as many platforms as possible we thought it was worth letting you know.\n\nIf you notice issues with further updates after this one then please get in touch with us on either IRC or GitHub.</description>
+  <pubDate>Fri, 04 Dec 2015 09:30:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
