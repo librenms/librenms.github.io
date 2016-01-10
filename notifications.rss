@@ -2,10 +2,10 @@
 <rss version="2.0">
 <channel>
  <title>LibreNMS Notifications</title>
- <description>This is an example of an RSS feed</description>
+ <description>RSS feed for notifications to LibreNMS users</description>
  <link>http://www.librenms.org/</link>
- <lastBuildDate>Fri, 04 Dec 2015 09:30:00 +0000</lastBuildDate>
- <pubDate>Fri, 04 Dec 2015 09:30:00 +0000</pubDate>
+ <lastBuildDate>Sun, 10 Jan 2016 12:00:00 +0000</lastBuildDate>
+ <pubDate>Sun, 10 Jan 2016 12:00:00 +0000</pubDate>
  <ttl>1800</ttl>
  
  <item>
