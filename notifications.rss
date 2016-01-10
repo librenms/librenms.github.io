@@ -2,10 +2,10 @@
 <rss version="2.0">
 <channel>
  <title>LibreNMS Notifications</title>
- <description>This is an example of an RSS feed</description>
+ <description>RSS feed for notifications to LibreNMS users</description>
  <link>http://www.librenms.org/</link>
- <lastBuildDate>Fri, 04 Dec 2015 09:30:00 +0000</lastBuildDate>
- <pubDate>Fri, 04 Dec 2015 09:30:00 +0000</pubDate>
+ <lastBuildDate>Sun, 10 Jan 2016 12:00:00 +0000</lastBuildDate>
+ <pubDate>Sun, 10 Jan 2016 12:00:00 +0000</pubDate>
  <ttl>1800</ttl>
  
  <item>
@@ -17,6 +17,11 @@
   <title>Important update being released</title>
   <description>We are releasing an important update within the next 24 hours which provides some additional functionality when running daily.sh. Whilst we have done everything we can to test this across as many platforms as possible we thought it was worth letting you know.\n\nIf you notice issues with further updates after this one then please get in touch with us on either IRC or GitHub.</description>
   <pubDate>Fri, 04 Dec 2015 09:30:00 +0000</pubDate>
+ </item>
+ <item>
+  <title>Poller changes</title>
+  <description>Earlier this month we released some updates which enable alpha versions of InfluxDB and MIB-based polling.\nWe have some further updates planned for the near future which may affect polling, so if you are running a mission-critical LibreNMS instance, you may wish to consider disabling updates for the time being.\nIf you notice any issues, please get in touch with us via IRC or GitHub.</description>
+  <pubDate>Sun, 10 Jan 2016 12:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
