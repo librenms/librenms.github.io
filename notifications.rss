@@ -25,7 +25,7 @@
  </item>
  <item>
    <title>Billing Data Changes</title>
-   <description>We are going to be merging in a PR which updates the billing module. The changes to this are significant so we are advising users to make a backup copy of the billing tables (bill* in mysql).\nThe changes being made will improve the performance of the bill polling and reduce the amount of data stored in MySQL\nFor more information please see https://github.com/librenms/librenms/pull/3156</description>
+   <description>We are going to be merging in a PR which updates the billing module. The changes to this are significant so we are advising users to make a backup copy of the billing tables (bill* in mysql).\nThe changes being made will improve the performance of the bill polling and reduce the amount of data stored in MySQL\nFor more information please see https://github.com/librenms/librenms/pull/3156/ This PR will be merged in on Tuesday the 15th of March 2016 at around 21:00:00 UTC</description>
    <pubDate>Mon, 08 Mar 2016 21:00:00 +0000</pubDate>
  </item>
 </channel>
