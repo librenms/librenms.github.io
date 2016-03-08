@@ -4,8 +4,8 @@
  <title>LibreNMS Notifications</title>
  <description>RSS feed for notifications to LibreNMS users</description>
  <link>http://www.librenms.org/</link>
- <lastBuildDate>Sun, 10 Jan 2016 12:00:00 +0000</lastBuildDate>
- <pubDate>Sun, 10 Jan 2016 12:00:00 +0000</pubDate>
+ <lastBuildDate>Tue, 8 Mar 2016 21:00:00 +0000</lastBuildDate>
+ <pubDate>Tue, 8 Mar 2016 21:00:00 +0000</pubDate>
  <ttl>1800</ttl>
  
  <item>
@@ -22,6 +22,11 @@
   <title>Poller changes</title>
   <description>Earlier this month we released some updates which enable alpha versions of InfluxDB and MIB-based polling.\nWe have some further updates planned for the near future which may affect polling, so if you are running a mission-critical LibreNMS instance, you may wish to consider disabling updates for the time being.\nIf you notice any issues, please get in touch with us via IRC or GitHub.</description>
   <pubDate>Sun, 10 Jan 2016 12:00:00 +0000</pubDate>
+ </item>
+ <item>
+   <title>Billing Data Changes</title>
+   <description>We are going to be merging in a PR which updates the billing module. The changes to this are significant so we are advising users to make a backup copy of the billing tables (bill* in mysql).\nThe changes being made will improve the performance of the bill polling and reduce the amount of data stored in MySQL\nFor more information please see https://github.com/librenms/librenms/pull/3156</description>
+   <pubDate>Mon, 08 Mar 2016 21:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
