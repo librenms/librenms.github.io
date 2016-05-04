@@ -4,8 +4,8 @@
  <title>LibreNMS Notifications</title>
  <description>RSS feed for notifications to LibreNMS users</description>
  <link>http://www.librenms.org/</link>
- <lastBuildDate>Sun, 10 Jan 2016 12:00:00 +0000</lastBuildDate>
- <pubDate>Sun, 10 Jan 2016 12:00:00 +0000</pubDate>
+ <lastBuildDate>Wed, 04 May 2016 14:00:00 +0000</lastBuildDate>
+ <pubDate>Wed, 04 May 2016 14:00:00 +0000</pubDate>
  <ttl>1800</ttl>
  
  <item>
@@ -22,6 +22,11 @@
   <title>Poller changes</title>
   <description>Earlier this month we released some updates which enable alpha versions of InfluxDB and MIB-based polling.\nWe have some further updates planned for the near future which may affect polling, so if you are running a mission-critical LibreNMS instance, you may wish to consider disabling updates for the time being.\nIf you notice any issues, please get in touch with us via IRC or GitHub.</description>
   <pubDate>Sun, 10 Jan 2016 12:00:00 +0000</pubDate>
+ </item>
+ <item>
+  <title>Imagemagick vulnerability</title>
+  <description>A vulnerability in ImageMagick has been released, please see https://imagetragick.com/ for more details.\n\nLibreNMS uses ImageMagick for pdf generation, we advice that you add the temporary fix in on the aforementioned website until patches for your distribution are available to update ImageMagick.</description>
+  <pubDate>Wed, 04 May 2016 14:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
