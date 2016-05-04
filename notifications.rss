@@ -25,7 +25,7 @@
  </item>
  <item>
   <title>Imagemagick vulnerability</title>
-  <description>A vulnerability in ImageMagick has been released, please see https://imagetragick.com/ for more details.\n\nLibreNMS uses ImageMagick for pdf generation, we advice that you add the temporary fix in on the aforementioned website until patches for your distribution are available to update ImageMagick.</description>
+  <description>A vulnerability in ImageMagick has been released, please see https://imagetragick.com/ for more details.\n\nLibreNMS uses ImageMagick for pdf generation, we advise that you add the temporary fix in on the aforementioned website until patches for your distribution are available to update ImageMagick.</description>
   <pubDate>Wed, 04 May 2016 14:00:00 +0000</pubDate>
  </item>
 </channel>
