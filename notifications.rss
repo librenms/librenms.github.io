@@ -30,7 +30,7 @@
  </item>
  <item>
   <title>Component Alerting Change</title>
-  <description>On July 25th we will be merging a PR that changes the status cosdes that are used for the component feature. If you have alerting rules that reference component.status, %macros.component_alert or %macros.component_normal please disable these until after the PR has been merged. Updated documentation will be merged with the PR to: http://docs.librenms.org/Extensions/Component/#alert</description>
+  <description>On July 25th we will be merging a PR that changes the status codes that are used for the component feature. If you have alerting rules that reference component.status, %macros.component_alert or %macros.component_normal please disable these until after the PR has been merged. Updated documentation will be merged with the PR to: http://docs.librenms.org/Extensions/Component/#alert</description>
   <pubDate>Mon, 25 July 2016 12:00:00 +0000</pubDate>
  </item>
 </channel>
