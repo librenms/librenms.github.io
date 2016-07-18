@@ -28,5 +28,10 @@
   <description>A vulnerability in ImageMagick has been released, please see https://imagetragick.com/ for more details.\n\nLibreNMS uses ImageMagick for pdf generation, we advise that you add the temporary fix in on the aforementioned website until patches for your distribution are available to update ImageMagick.</description>
   <pubDate>Wed, 04 May 2016 14:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Component Alerting Change</title>
+  <description>On July 25th we will be merging a PR that changes the status cosdes that are used for the component feature. If you have alerting rules that reference component.status, %macros.component_alert or %macros.component_normal please disable these until after the PR has been merged. Updated documentation will be merged with the PR to: http://docs.librenms.org/Extensions/Component/#alert</description>
+  <pubDate>Mon, 25 July 2016 12:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
