@@ -23,5 +23,6 @@ social:
     url: https://github.com/librenms/librenms
 
 # Build settings
-markdown: kramdown
 permalink: pretty
+gems:
+  - jekyll-redirect-from
