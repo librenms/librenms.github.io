@@ -1,9 +1,8 @@
 url: http://www.librenms.org
-baseurl: 
 
 # Site settings
 title: LibreNMS
-description: "LibreNMS is an autodiscovering PHP/MySQL-based network monitoring system."
+description: LibreNMS is an autodiscovering PHP/MySQL-based network monitoring system.
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -14,7 +13,7 @@ color:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/librenms
+    url: https://twitter.com/LibreNMS
   - title: facebook-official
     url: https://www.facebook.com/LibreNMS
   - title: google-plus
