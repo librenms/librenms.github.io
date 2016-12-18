@@ -38,5 +38,10 @@
   <description>On December 20th we will be merging a PR that fixes the polling of data for NUT Ups devices.\n\nUnfortunately this will require users to delete the existing data and allow it to be re-created.\n\nTo do this, you can delete rrd files app-ups-nut-ID.rrd. ID will be a unique ID. After removing this file then data collection will start again.</description>
   <pubDate>Sun, 18 December 2016 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Multimatic UPS detection changes</title>
+  <description>On December 21st we will be merging a PR that will change devices currently detected as multimatic to be detected as generex-ups.\n\nIf you have any alert rules or device groups that rely on this OS definition then you will need to update those rules to include generex-ups.</description>
+  <pubDate>Sun, 18 December 2016 22:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
