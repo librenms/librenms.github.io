@@ -43,5 +43,10 @@
   <description>On December 21st we will be merging a PR that will change devices currently detected as multimatic to be detected as generex-ups.\n\nIf you have any alert rules or device groups that rely on this OS definition then you will need to update those rules to include generex-ups.</description>
   <pubDate>Sun, 18 December 2016 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Redback SmartEdge OS change</title>
+  <description>On January 19th we will be merging a PR that will change devices currently detected as redback to be detected as seos.\n\nIf you have any alert rules or device groups that rely on this OS definition then you will need to update those rules to include seos.</description>
+  <pubDate>Sun, 15 January 2016 22:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
