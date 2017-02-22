@@ -48,5 +48,10 @@
   <description>On January 19th we will be merging a PR that will change devices currently detected as redback to be detected as seos.\n\nIf you have any alert rules or device groups that rely on this OS definition then you will need to update those rules to include seos.</description>
   <pubDate>Sun, 15 January 2016 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Large schema update due to be released</title>
+  <description>Please see: https://community.librenms.org/t/large-schema-update-being-released/637 for further info.</description>
+  <pubDate>Wed, 22 February 2017 23:45:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
