@@ -53,5 +53,10 @@
   <description>Please see: https://community.librenms.org/t/large-schema-update-being-released/637 for further info.</description>
   <pubDate>Wed, 22 February 2017 23:45:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Change to extremeware and xos discovery</title>
+  <description>On the 8th of March, we are changing the way that OS detection is done for Extremeware and XOS devices, this could lead to the OS changing so if you have alerting or groups that reference these os names then please be aware that you will need to update them.</description>
+  <pubDate>Mon, 5 March 2017 14:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
