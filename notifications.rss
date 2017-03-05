@@ -55,8 +55,8 @@
  </item>
  <item>
   <title>Change to extremeware and xos discovery</title>
-  <description>On the 8th of March, we are changing the way that OS detection is done for Extremeware and XOS devices, this could lead to the OS changing so if you have alerting or groups that reference these os names then please be aware that you will need to update them.</description>
-  <pubDate>Mon, 5 March 2017 14:00:00 +0000</pubDate>
+  <description>On the 9th of March, we are changing the way that OS detection is done for Extremeware and XOS devices, this could lead to the OS changing so if you have alerting or groups that reference these os names then please be aware that you will need to update them.</description>
+  <pubDate>Mon, 6 March 2017 14:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
