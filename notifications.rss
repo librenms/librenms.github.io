@@ -63,5 +63,10 @@
   <description>On the 24th of March, we are changing device type for Ubiquiti AirFibre from network to wireless. See https://github.com/librenms/librenms/pull/6160 for PR.</description>
   <pubDate>Tue, 20 March 2017 11:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Change to some DNOS discovery</title>
+  <description>On the 24th of March, we are changing the detection of some Dell DNOS devices to PowerConnect. This is to show the difference between v6 and v9 of the DNOS OS. See https://github.com/librenms/librenms/pull/6206 for PR.</description>
+  <pubDate>Thu, 22 March 2017 09:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
