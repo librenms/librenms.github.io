@@ -68,5 +68,10 @@
   <description>On the 24th of March, we are changing the detection of some Dell DNOS devices to PowerConnect. This is to show the difference between v6 and v9 of the DNOS OS. See https://github.com/librenms/librenms/pull/6206 for PR.</description>
   <pubDate>Thu, 22 March 2017 09:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Change to Cisco UCM type from tele to collaboration</title>
+  <description>On the 10th of April 2017, we are changing the type Cisco UCM (cucm) devices from tele to collaboration. If you have any alert rules or groups based on this value please adjust them after the daily update on that date.</description>
+  <pubDate>Thu, 6 April 2017 21:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
