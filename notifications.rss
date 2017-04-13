@@ -73,5 +73,10 @@
   <description>On the 10th of April 2017, we are changing the type Cisco UCM (cucm) devices from tele to collaboration. If you have any alert rules or groups based on this value please adjust them after the daily update on that date.</description>
   <pubDate>Thu, 6 April 2017 21:00:00 +0000</pubDate>
  </item>
+  <item>
+  <title>Change to AXIS OS device type</title>
+  <description>On the 17th of April 2017, we are changing the device type of AXIS devices from network to appliance. If you have any alert rules or groups based on this value please adjust them after the daily update on that date.</description>
+  <pubDate>Thu, 13 April 2017 9:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
