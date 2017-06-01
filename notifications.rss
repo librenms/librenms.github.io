@@ -83,6 +83,7 @@
   <description>On the 24th of April 2017, The following UPS devices os will change: mgeups(Galaxy)->apc-mgeups, mgeups->eaton-mgeups, powerware->eatonups.  If you have any alert rules or groups based on this value please adjust them after the daily update on that date.</description>
   <pubDate>Thu, 19 April 2017 09:00:00 +0000</pubDate>
  </item>
+ <item>
   <title>Change to IRC alerts</title>
   <description>On the 8th of June 2017, we will change the way the ircbot displays alerts.  It will now start using the standard templating system.  You can customize the alert templates for irc using e.g. {if %transport == irc}.  Please be aware that overly long templates might lead to the bot being disconnected for excess flood.</description>
   <pubDate>Thu, 1 June 2017 09:00:00 +0000</pubDate>
