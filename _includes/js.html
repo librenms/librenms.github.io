@@ -19,5 +19,42 @@
  <script type="text/javascript" charset="utf-8">
     $(document).ready(function(){
         $("a[rel^='prettyPhoto']").prettyPhoto({theme: 'dark_rounded'});
+
+        // populate sponsors and backers
+        $.get('https://opencollective.com/librenms/sponsors.json', function (data) {
+            var sponsors = $('#sponsors');
+            data.forEach(function (sponsor) {
+                var link = '#';
+                if (sponsor.website) {
+                    link = sponsor.website;
+                } else if (sponsor.twitterHandle) {
+                    link = 'https://twitter.com/' + sponsor.twitterHandle;
+                }
+
+                var el = '<div class="sponsor"><a href="' + link + '">';
+                el += '<img class="img-circle" alt="' + sponsor.name + '" src="' + sponsor.avatar + '">';
+                el += '</a>';
+                el += '<p>$' + (sponsor.totalDonations / 100) + '</p>';
+                el += '</div>';
+
+                sponsors.append(el);
+            });
+        });
+        $.get('https://opencollective.com/librenms/backers.json', function (data) {
+            var backers = $('#backers');
+            data.forEach(function (backer) {
+                var link = '#';
+                if (backer.twitterHandle) {
+                    link = 'https://twitter.com/' + backer.twitterHandle;
+                }
+
+                var el = '<div class="backer"><a href="' + link + '">';
+                el += '<img class="img-circle" alt="' + backer.name + '" src="' + backer.avatar + '">';
+                el += '</a>';
+                el += '</div>';
+
+                backers.append(el);
+            });
+        });
     });
 </script>
