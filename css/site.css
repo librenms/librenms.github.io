@@ -1,8 +1,8 @@
 .backer img {
     width: 40px;
-    border-width: 2px;
+    border: 2px solid #aaa;
 }
 .sponsor img {
     width: 80px;
-    border-width: 2px;
+    border: 2px solid #aaa;
 }
