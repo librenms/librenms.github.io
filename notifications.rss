@@ -93,5 +93,10 @@
   <description>On the 17th of June 2017, we are changing the os name of cucm to ucos to be inline with the Cisco name.</description>
   <pubDate>Tue, 13 June 2017 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>PowerWalker devices will now use RFC1628 for sensors</title>
+  <description>On the 11th of July 2017, we are changing the PowerWalker OS to use RFC1628 (UPS-MIB) for sensor data. This will bring with it some additional metrics but will also mean that historical graphs will no longer be available. If you require this data then we suggest you copy the rrd files out of the way for later use.</description>
+  <pubDate>Mon, 04 July 2017 10:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
