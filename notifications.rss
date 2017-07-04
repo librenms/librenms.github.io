@@ -93,5 +93,10 @@
   <description>On the 17th of June 2017, we are changing the os name of cucm to ucos to be inline with the Cisco name.</description>
   <pubDate>Tue, 13 June 2017 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Change Ubiquiti AirOS (airos) device type </title>
+  <description>On the 10th of July 2017, we are changing the device type of Ubiquiti AirOS devices from network to wireless. If you have any alert rules or groups based on this value please adjust them after the daily update on that date.</description>
+  <pubDate>Tue, 3 July 2017 22:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
