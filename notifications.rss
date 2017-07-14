@@ -98,5 +98,10 @@
   <description>On the 10th of July 2017, we are changing the device type of Ubiquiti AirOS devices from network to wireless. If you have any alert rules or groups based on this value please adjust them after the daily update on that date.</description>
   <pubDate>Tue, 3 July 2017 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>PowerWalker devices will now use the EPPC MIB for sensors</title>
+  <description>On the 20th of July 2017, we are changing the PowerWalker OS to use the EPPC MIB for sensor data. This will bring with it some additional metrics but will also mean that historical graphs will no longer be available. If you require this data then we suggest you copy the rrd files out of the way for later use.</description>
+  <pubDate>Thu, 13 July 2017 22:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
