@@ -106,7 +106,7 @@
  <item>
   <title>EricssonLG iPECS devices OS name change</title>
   <description>On the 17th of September 2017, we are changing the OS names for the ELG iPECS UCP from ipecs -> elg-ipecs-ucp and for the ELG iPECS ES from ericsson-es -> elg-ipecs-es. Please adjust any alert rules or device groups that use these OS names.</description>
-  <pubDate>Thu, 13 July 2017 22:00:00 +0000</pubDate>
+  <pubDate>Tue, 12 Sep 2017 13:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
