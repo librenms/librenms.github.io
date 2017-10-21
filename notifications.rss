@@ -106,7 +106,12 @@
  <item>
   <title>EricssonLG iPECS devices OS name change</title>
   <description>On the 25th of September 2017, we are changing the OS names for the ELG iPECS UCP from ipecs -> elg-ipecs-ucp and for the ELG iPECS ES from ericsson-es -> elg-ipecs-es. Please adjust any alert rules or device groups that use these OS names.</description>
-  <pubDate>WED, 20 Sep 2017 21:00:00 +0000</pubDate>
+  <pubDate>Wed, 20 Sep 2017 21:00:00 +0000</pubDate>
+ </item>
+ <item>
+  <title>Cisco SMB Linux OS changing to Cisco WAP</title>
+  <description>On the 27th of October 2017, we are changing the OS names for the Cisco SMB Linux devices from ciscosmblinux -> ciscowap. Please adjust any alert rules or device groups that use these OS names.</description>
+  <pubDate>Sat, 21 Oct 2017 15:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
