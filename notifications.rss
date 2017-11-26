@@ -113,5 +113,10 @@
   <description>On the 27th of October 2017, we are changing the OS names for the Cisco SMB Linux devices from ciscosmblinux -> ciscowap. Please adjust any alert rules or device groups that use these OS names.</description>
   <pubDate>Sat, 21 Oct 2017 15:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>API update will enforce user permissions, check your tokens</title>
+  <description>Please see https://community.librenms.org/t/api-update-will-enforce-user-permissions-check-your-api-tokens/2675 for more info</description>
+  <pubDate>Sun, 26 Nov 2017 22:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
