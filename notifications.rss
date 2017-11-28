@@ -118,5 +118,10 @@
   <description>Please see https://community.librenms.org/t/api-update-will-enforce-user-permissions-check-your-api-tokens/2675 for more info</description>
   <pubDate>Sun, 26 Nov 2017 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Cambium Refactor</title>
+  <description>On the 6th of December 2017, we are changing the OS names for all cambium products to their respective category. (Ex: pmp, ptp650, ptp250, cmm) Please adjust any alert rules or device groups that use these OS names. This will bring with it some additional metrics but will also mean that some historical graphs will no longer be available. </description>
+  <pubDate>Tue, 28 Nov 2017 13:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
