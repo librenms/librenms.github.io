@@ -138,5 +138,10 @@
   <description>On March 23rd we will merge a pull request which will rename the OS raritan to raritan-pdu.  Please adjust any alert rules or device groups that use these OS names.</description>
   <pubDate>Mon, 19 Mar 2018 20:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>aerohive OS changing to hiveos-wireless</title>
+  <description>On March 23rd we will merge a pull request which will rename the OS aerohive to hiveos-wireless.  Please adjust any alert rules or device groups that use these OS names.</description>
+  <pubDate>Mon, 19 Mar 2018 20:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
