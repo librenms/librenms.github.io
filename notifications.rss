@@ -128,10 +128,15 @@
   <description>On the 11th of December 2017, we are changing the OS names for cometsystem-p85xx to websenor. Please adjust any alert rules or device groups that use these OS names. This will bring with it some additional metrics. </description>
   <pubDate>Wed, 6 Dec 2017 22:00:00 +0000</pubDate>
  </item>
-  <item>
+ <item>
   <title>Processor Usage Refactor</title>
   <description>February 5th we will merge a major processors rewrite.  Most will see no difference, some were fixed. The following will lose historical data: axos, calix, dsm, fiberhome, hbblmos.  If you have any issues, please come report in our Discord (https://t.libren.ms/discord). For more details, visit the pull request: https://git.io/vNyUK.</description>
   <pubDate>Mon, 29 Jan 2018 13:00:00 +0000</pubDate>
+ </item>
+ <item>
+  <title>raritan OS changing to raritan-pdu</title>
+  <description>On March 23rd we will merge a pull request which will rename the OS raritan to raritan-pdu.  Please adjust any alert rules or device groups that use these OS names.</description>
+  <pubDate>Mon, 19 Mar 2018 20:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
