@@ -150,7 +150,7 @@
  </item>
   <item>
   <title>Manual intervention required for 1.40 update</title>
-  <description>When LibreNMS 1.40 is released on Sunday May 27, there are some steps that need to be taken to restore your Web UI.  The poller should continue without interruption.  More details here: https://community.librenms.org/t/new-requirements-for-1-40/4057</description>
+  <description>When LibreNMS 1.40 is released on Wednesday May 30, there are some steps that need to be taken to restore your Web UI.  The poller should continue without interruption.  More details here: https://community.librenms.org/t/new-requirements-for-1-40/4057</description>
   <pubDate>Tue, 22 May 2018 06:00:00 +0000</pubDate>
  </item>
 </channel>
