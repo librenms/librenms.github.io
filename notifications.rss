@@ -146,7 +146,7 @@
  <item>
   <title>avaya-ers and avaya-vsp OS' changing to boss and voss.</title>
   <description>On April 12th we will merge a pull request which will rename the OS' avaya-ers and avaya-vsp OS' to boss and voss respectively.  Please adjust any alert rules or device groups that use these OS names.</description>
-  <pubDate>Sat, 07 Apr 2018 20:00:00 +0000</pubDate>
+  <pubDate>Tue, 22 Apr 2018 06:00:00 +0000</pubDate>
  </item>
   <item>
   <title>Manual intervention required for 1.40 update</title>
