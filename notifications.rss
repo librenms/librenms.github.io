@@ -146,12 +146,12 @@
  <item>
   <title>avaya-ers and avaya-vsp OS' changing to boss and voss.</title>
   <description>On April 12th we will merge a pull request which will rename the OS' avaya-ers and avaya-vsp OS' to boss and voss respectively.  Please adjust any alert rules or device groups that use these OS names.</description>
-  <pubDate>Tue, 22 Apr 2018 06:00:00 +0000</pubDate>
+  <pubDate>Sat, 07 Apr 2018 20:00:00 +0000</pubDate>
  </item>
   <item>
   <title>Manual intervention required for 1.40 update</title>
   <description>When LibreNMS 1.40 is released on Sunday May 27, there are some steps that need to be taken to restore your Web UI.  The poller should countinue without interruption.  More details here: https://community.librenms.org/t/new-requirements-for-1-40/4057</description>
-  <pubDate>Sat, 07 Apr 2018 20:00:00 +0000</pubDate>
+  <pubDate>Tue, 22 May 2018 06:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
