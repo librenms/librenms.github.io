@@ -153,5 +153,10 @@
   <description>When LibreNMS 1.40 is released on Wednesday May 30, there are some steps that need to be taken to restore your Web UI.  The poller should continue without interruption.  More details here: https://community.librenms.org/t/new-requirements-for-1-40/4057</description>
   <pubDate>Tue, 22 May 2018 06:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Cambium Cleanup</title>
+  <description>On Monday the 4th of July 2018, some cambium metrics(CRC errors, fecInErrors, fecOutErrors) are being migrated over to the Wireless Tab, the old data will be available for some time still but will be removed from the Graphs Tab in a future update. </description>
+  <pubDate>Thu, 31 May 2018 09:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
