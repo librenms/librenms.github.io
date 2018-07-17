@@ -158,9 +158,9 @@
   <description>On Monday the 4th of July 2018, some cambium metrics(CRC errors, fecInErrors, fecOutErrors) are being migrated over to the Wireless Tab, the old data will be available for some time still but will be removed from the Graphs Tab in a future update. </description>
   <pubDate>Thu, 31 May 2018 09:00:00 +0000</pubDate>
  </item>
-  <item>
+ <item>
   <title>Calix OS reorganize</title>
-  <description>On Monday the 23rd of July 2018, The OS known as calix will be split into calix, exa, and occamos.  See https://github.com/librenms/librenms/pull/8832 for more details.</description>
+  <description>On Monday the 23rd of July 2018, The OS known as calix will be split into calix, exa, and occamos. Please update any device groups or alert rules which may reference this OS. See https://github.com/librenms/librenms/pull/8832 for more details.</description>
   <pubDate>Thu, 17 July 2018 16:00:00 +0000</pubDate>
  </item>
 </channel>
