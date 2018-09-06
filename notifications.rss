@@ -168,5 +168,10 @@
   <description>On Tuesday the 24th of July 2018, the OS known as cmts will be changed to arris-c4. Please update any device groups or alert rules which may reference this OS. See https://github.com/librenms/librenms/pull/8883 for more details.</description>
   <pubDate>Thu, 20 July 2018 12:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>New authentication system</title>
+  <description>In ongoing efforts to improve LibreNMS, a new authentication system will be merged on Tuesday the 11th of September 2018. Existing configurations should continue to work.  For more details and to test https://github.com/librenms/librenms/pull/8702</description>
+  <pubDate>Thu, 6 September 2018 12:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
