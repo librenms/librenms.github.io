@@ -183,5 +183,10 @@
   <description>This is a notification to inform users that we are deprecating legacy transports and template support in the New Year 2019. Please see https://t.libren.ms/deprecation-alerting for further information.</description>
   <pubDate>Thu, 18 October 2018 21:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Reminder: Deprecation of legacy alert transports + legacy templating engine</title>
+  <description>This is a notification to inform users that we are deprecating legacy transports and template support in the New Year 2019. Please see https://t.libren.ms/deprecation-alerting for further information.</description>
+  <pubDate>Thu, 29 November 2018 22:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
