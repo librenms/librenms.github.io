@@ -188,5 +188,10 @@
   <description>This is a notification to inform users that we are deprecating legacy transports and template support in the New Year 2019. Please see https://t.libren.ms/deprecation-alerting for further information.</description>
   <pubDate>Thu, 29 November 2018 22:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>Minimum PHP supported version changing to 7.1.3</title>
+  <description>Please note that we will be changing the minimum supported PHP version from 5.6.3 to 7.1.3 on the 1st of Feb 2019. You can read more about this change here: https://t.libren.ms/php7</description>
+  <pubDate>Thu, 3 January 2019 08:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
