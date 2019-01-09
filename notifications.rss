@@ -195,7 +195,7 @@
  </item>
  <item>
   <title>Merging ethernetprobe2 into akcp</title>
-  <description>On January 15th, 2019 we will merge the ethernetprobe2 os into the akcp os.  This will also include improved sensor support.</description>
+  <description>On January 15th, 2019 we will merge the ethernetprobe2 os into the akcp os.  This will also include improved sensor support.\n\nIf you have any alert rules or device groups that rely on this OS definition then you will need to update those rules to include akcp.</description>
   <pubDate>Wed, 9 January 2019 08:00:00 +0000</pubDate>
  </item>
 </channel>
