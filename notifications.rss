@@ -203,5 +203,10 @@
   <description>The duplicate field host has been removed from the eventlog table. If you use this in your alert rules, you should update it to use the field device_id instead.</description>
   <pubDate>Fri, 11 January 2019 08:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>RouterOS "Station Connected" metric historical data</title>
+  <description>A naming typo was corrected for RouterOS "Station connected" metric. This will lead to a loss of historical data display for this particular value. This will happen on March 27, 2019. More info: https://t.libren.ms/amt4s</description>
+  <pubDate>Sun, 23 Mar 2019 00:00:00 +0100</pubDate>
+</item>
 </channel>
 </rss>
