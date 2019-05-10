@@ -207,11 +207,16 @@
   <title>RouterOS "Station Connected" metric historical data</title>
   <description>A naming typo was corrected for RouterOS "Station connected" metric. This will lead to a loss of historical data display for this particular value. This will happen on March 27, 2019. More info: https://t.libren.ms/amt4s</description>
   <pubDate>Sun, 23 Mar 2019 00:00:00 +0100</pubDate>
-</item>
+ </item>
  <item>
   <title>LibreNMS Python Dispatcher Service V2 (breaking change)</title>
   <description>Version two of the LibreNMS python dispatcher service will merged on May 21, 2019. This code now requires Redis 5.x and redis-py 3.x to operate (if using distributed polling). Failure to update Redis before v2 is released will cause your pollers to stop functioning.</description>
   <pubDate>Thur, 9 May 2019 00:00:00 +0000</pubDate>
-</item>
+ </item>
+ <item>
+  <title>Update to services graphing</title>
+  <description>We are improving graphing support for services and as part of that change services graphs will be migrated to a new URL.\n\nPlease remember to update it if you are linking to it directly.\n\nAfter change, dashboard will gain ability to natively place services graphs.</description>
+  <pubDate>Fri, 10 May 0000 00:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
