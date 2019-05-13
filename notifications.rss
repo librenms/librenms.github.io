@@ -215,8 +215,8 @@
  </item>
  <item>
   <title>Update to services graphing</title>
-  <description>We are improving graphing support for services and as part of that change services graphs will be migrated to a new URL.\n\nPlease remember to update it if you are linking to it directly.\n\nAfter change, dashboard will gain ability to natively place services graphs.</description>
-  <pubDate>Fri, 10 May 0000 00:00:00 +0000</pubDate>
+  <description>We are improving graphing support for services and as part of that change services graphs will be migrated to a new URL. Please remember to update it if you are linking to it directly. This will add the ability to directly select service graphs on the dashboard.</description>
+  <pubDate>Mon, 13 May 0000 00:00:00 +0000</pubDate>
  </item>
 </channel>
 </rss>
