@@ -218,5 +218,10 @@
   <description>We are improving graphing support for services and as part of that change services graphs will be migrated to a new URL. Please remember to update it if you are linking to it directly. This will add the ability to directly select service graphs on the dashboard.</description>
   <pubDate>Mon, 13 May 0000 00:00:00 +0000</pubDate>
  </item>
+  <item>
+  <title>Update of Api Transport (Breaking change only if you use current Api Transport)</title>
+  <description>The API Transport code will be updated the 26th of June to allow more flexible and secure definition of the POST/GET parameters. It is also possible to perform Basic Auth on the service. If you use Api Transport today, be aware that you must update the URL and parameters definition. If you don't update them, the Api Transport will not behave correctly and you may miss alerts via this transport. For more information, you can consult https://github.com/librenms/librenms/pull/10070 </description>
+  <pubDate>Sun, 23 June 2019 00:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
