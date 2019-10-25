@@ -225,7 +225,7 @@
  </item>
  <item>
   <title>Dell OS States reorganize</title>
-  <description>Due to a duplicate name in different Dell MIBs, devices recognised as "dell" os in LibreNMS will loose historical data. Change will occur on Friday November 3rd. The sensors impacted : processorDeviceStatusStatus, memoryDeviceStatus, powerSupplyStatus, intrusionStatus, controllerState, arrayDiskState, virtualDiskState, batteryState. It is possible to manually rename RRD files if you need to keep them. More information here : https://github.com/librenms/librenms/pull/10539</description>
+  <description>Due to a duplicate name in different Dell MIBs, devices recognised as "dell" os in LibreNMS will loose historical data. Change will occur on Sunday November 3rd. The sensors impacted : processorDeviceStatusStatus, memoryDeviceStatus, powerSupplyStatus, intrusionStatus, controllerState, arrayDiskState, virtualDiskState, batteryState. It is possible to manually rename RRD files if you need to keep them. More information here : https://github.com/librenms/librenms/pull/10539</description>
   <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
  </item>
 </channel>
