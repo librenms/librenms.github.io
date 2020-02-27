@@ -230,7 +230,7 @@
  </item>
  <item>
   <title>Discovery Protocols behaviour change</title>
-  <description>The behaviour of the discovery-protocols module which includes support for protocols such as xDP has changed, discovery protocols will now always be polled as soon as the module is enabled, but the discovered neighbours will only be added if the proper configuration setting is set, check the following PR for more details: https://github.com/librenms/librenms/pull/11189</description>
+  <description>On the 5th of March 2020, the behaviour of the discovery-protocols module which includes support for protocols such as xDP has changed, discovery protocols will now always be polled as soon as the module is enabled, but the discovered neighbours will only be added if the proper configuration setting is set, check the following PR for more details: https://github.com/librenms/librenms/pull/11189</description>
   <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
  </item>
 </channel>
