@@ -228,5 +228,10 @@
   <description>Due to a duplicate name in different Dell MIBs, devices recognised as "dell" os in LibreNMS will loose historical data. Change will occur on Sunday November 3rd. The sensors impacted : processorDeviceStatusStatus, memoryDeviceStatus, powerSupplyStatus, intrusionStatus, controllerState, arrayDiskState, virtualDiskState, batteryState. It is possible to manually rename RRD files if you need to keep them. More information here : https://github.com/librenms/librenms/pull/10539</description>
   <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
  </item>
-</channel>
+ <item>
+  <title>PHP Sockets requirement</title>
+  <description>LibreNMS will soon require the PHP sockets extension for non-RRD data stores (such as InfluxDB, OpenTSDB, and Prometheus).  Please make sure you have the extension installed and enabled if you use these data stores.  You can log in to the LibreNMS CLI and run ./validate.php to verify.</description>
+  <pubDate>Thu, 26 Feb 2020 00:00:00 +0000</pubDate>
+ </item>
+ </channel>
 </rss>
