@@ -238,5 +238,5 @@
   <description>On March 10, 2020, LibreNMS will require the PHP sockets extension for the Graphite and OpenTSDB datastores.  Please make sure you have the extension installed and enabled.  You can log in to the LibreNMS CLI and run ./validate.php to verify.</description>
   <pubDate>Mon, 2 Mar 2020 00:00:00 +0000</pubDate>
  </item>
- </channel>
+</channel>
 </rss>
