@@ -233,5 +233,10 @@
   <description>On the 5th of March 2020, the behaviour of the discovery-protocols module which includes support for protocols such as xDP has changed, discovery protocols will now always be polled as soon as the module is enabled, but the discovered neighbours will only be added if the proper configuration setting is set, check the following PR for more details: https://github.com/librenms/librenms/pull/11189</description>
   <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>PHP Sockets requirement</title>
+  <description>On March 10, 2020, LibreNMS will require the PHP sockets extension for the Graphite and OpenTSDB datastores.  Please make sure you have the extension installed and enabled.  You can log in to the LibreNMS CLI and run ./validate.php to verify.</description>
+  <pubDate>Mon, 2 Mar 2020 00:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
