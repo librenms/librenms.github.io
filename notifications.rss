@@ -240,7 +240,7 @@
  </item>
  <item>
   <title>PHP 7.1 and Python 2 no longer supported</title>
-  <description>LibreNMS will soon require Python 3.5+ and PHP 7.2.5+. For more details check https://community.librenms.org under announcements.</description>
+  <description>LibreNMS will soon require Python 3.5+ and PHP 7.2.5+. For more details check https://t.libren.ms/uo84c</description>
   <pubDate>Mon, 7 May 2020 00:00:00 +0000</pubDate>
  </item>
 </channel>
