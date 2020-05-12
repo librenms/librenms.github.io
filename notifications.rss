@@ -243,5 +243,10 @@
   <description>LibreNMS will soon require Python 3.5+ and PHP 7.2.5+. For more details check https://t.libren.ms/uo84c</description>
   <pubDate>Mon, 7 May 2020 00:00:00 +0000</pubDate>
  </item>
+ <item>
+  <title>AOS OS discovery reorganize</title>
+  <description>Due to a duplicate name in different AOS MIBs, devices recognised as "AOS" os in LibreNMS will be detected now as aos, aos6 or aos7. Change will occur on Mon, 18 May 2020. Device_processor sensors of aos6 and aos7 will loose historical data (rrd file can be renamed if you want to keep data). More info at: https://github.com/librenms/librenms/pull/11500</description>
+  <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+ </item>
 </channel>
 </rss>
