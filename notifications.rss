@@ -211,7 +211,7 @@
  <item>
   <title>LibreNMS Python Dispatcher Service V2 (breaking change)</title>
   <description>Version two of the LibreNMS python dispatcher service will merged on May 21, 2019. This code now requires Redis 5.x and redis-py 3.x to operate (if using distributed polling). Failure to update Redis before v2 is released will cause your pollers to stop functioning.</description>
-  <pubDate>Thur, 9 May 2019 08:00:00 +0000</pubDate>
+  <pubDate>Thu, 9 May 2019 08:00:00 +0000</pubDate>
  </item>
  <item>
   <title>Update to services graphing</title>
