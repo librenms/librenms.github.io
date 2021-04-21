@@ -27,5 +27,5 @@ social:
 
 # Build settings
 permalink: pretty
-gems:
+plugins:
   - jekyll-redirect-from
