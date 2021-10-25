@@ -269,7 +269,7 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-header {
+header.librenms-header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
