@@ -19,5 +19,13 @@
 
 <script type="text/javascript" src="https://librenms.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js"></script>
 
+<script>
+    document.arrive(".sprd-header__image", function () {
+        document.unbindArrive(".sprd-header__image"); // don't infinite loop
+        const new_element = this.cloneNode(true);
+        new_element.href = 'https://librenms.org'
+        this.parentNode.replaceChild(new_element, this);
+    });
+</script>
 </body>
 </html>
