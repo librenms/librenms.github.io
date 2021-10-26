@@ -60,7 +60,6 @@
         var parts = getLocale();
         var country = parts[1];
         spread_shop_config.locale = parts[0] + '_' + country;
-        console.log(spread_shop_config.locale);
 
         if (! spread_shop_config.prefix) {
             setStore(country);
@@ -79,7 +78,6 @@
 
     function setStore(country) {
         spread_shop_config.prefix = country in store_map ? store_map[country] : eu_store;
-        console.log(spread_shop_config.prefix, store_map[country], country);
         localStorage.setItem('store_url', spread_shop_config.prefix);
     }
 

@@ -6,7 +6,7 @@
     padding: 5px;
 }
 .navbar-brand {
-    padding: 0 5px 0 0;
+    padding: 5px 5px 5px 5px;
 }
 
 .header-social-links a {
@@ -20,8 +20,8 @@
 }
 
 .navbar-nav>li>a {
-    padding-left: 6px;
-    padding-right: 7px;
+    padding-left: 5px;
+    padding-right: 6px;
 }
 @media (min-width: 1120px) {
     .navbar-nav>li>a {
@@ -29,7 +29,7 @@
         padding-right: 10px;
     }
     .navbar-container {
-        margin-right: 20px !important;
+        margin-right: 10px !important;
         margin-left: 10px !important;
     }
 }
