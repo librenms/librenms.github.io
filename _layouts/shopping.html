@@ -41,7 +41,7 @@
     var spread_shop_config = {
         shopName: 'librenms',
 //         locale: 'en_EU',
-        prefix: null, // disable localStorage.getItem('store_url'),
+        prefix: na_store, // disable localStorage.getItem('store_url'),
         baseId: 'librenms-shop'
     };
 
@@ -61,9 +61,9 @@
         var country = parts[1];
 //         spread_shop_config.locale = parts[0] + '_' + country;
 
-        if (! spread_shop_config.prefix) {
-            setStore(country);
-        }
+//         if (! spread_shop_config.prefix) {
+//             setStore(country);
+//         }
         
         if (spread_shop_config.prefix === na_store) {
             document.getElementById('locale-display').innerText = 'NA';
