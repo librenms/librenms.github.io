@@ -18,7 +18,7 @@
                     <a id="locale-selector" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span id="locale-display">EU</span><span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li class="dropdown-header">Change Store</li>
-                        <li><a href="#" onclick="changeStore('EU')">EU</a></li>
+                        <li><a href="https://librenms.spreadshirt.net/">EU</a></li>
                         <li><a href="#" onclick="changeStore('NA')">NA</a></li>
                     </ul>
                 </li>
@@ -64,7 +64,14 @@
         if (! spread_shop_config.prefix) {
             setStore(country);
         }
-        document.getElementById('locale-display').innerText = spread_shop_config.prefix === na_store ? 'NA' : 'EU';
+        
+        if (spread_shop_config.prefix === na_store) {
+            document.getElementById('locale-display').innerText = 'NA';
+        } else {
+            // redirect to external store for now
+            document.getElementById('locale-display').innerText = 'EU';
+            location.href = eu_store;
+        }
 
         $.getScript(spread_shop_config.prefix + '/shopfiles/shopclient/shopclient.nocache.js');
     }
