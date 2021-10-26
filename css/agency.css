@@ -89,6 +89,17 @@ h6 {
     color: #fff;
     background-color: #{{ site.color.secondary }};
 }
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: #{{ site.color.primary }};
+    color: #fff;
+}
+.navbar-default .nav .dropdown-menu li a {
+    color: #000;
+}
+.navbar-default .nav .dropdown-menu li a:hover {
+    color: #000;
+    background-color: #ff6262;
+}
 
 .btn-primary:active,
 .btn-primary.active,
@@ -275,7 +286,7 @@ header.librenms-header {
     background-attachment: scroll;
     background-image: url(/images/header-bg.jpg);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: unset;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

@@ -1,0 +1,17 @@
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header page-scroll">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div class="navbar-brand hidden-sm">
+        <a class="page-scroll" href="#page-top"><img src="/images/LibreNMS-Logo-Black.png" srcset="/images/LibreNMS-Logo.svg" alt="LibreNMS" width="207" height="38"></a>
+        <div class="header-social-links">
+            {% for network in site.social %}
+            <a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

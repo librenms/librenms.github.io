@@ -5,3 +5,35 @@
     margin: 10px;
     padding: 5px;
 }
+.navbar-brand {
+    padding: 0 5px 0 0;
+}
+
+.header-social-links a {
+    font-size: 15px;
+    float: right;
+    color: #fff;
+    margin: -4px 5px 0;
+}
+.header-social-links a:hover {
+    color: #da223a;
+}
+
+.navbar-nav>li>a {
+    padding-left: 6px;
+    padding-right: 7px;
+}
+@media (min-width: 1120px) {
+    .navbar-nav>li>a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar-container {
+        margin-right: 20px !important;
+        margin-left: 10px !important;
+    }
+}
+
+.navbar-static-top.navbar {
+    margin-bottom: 0;
+}
