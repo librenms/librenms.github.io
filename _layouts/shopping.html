@@ -40,7 +40,7 @@
 
     var spread_shop_config = {
         shopName: 'librenms',
-        locale: 'en_EU',
+//         locale: 'en_EU',
         prefix: localStorage.getItem('store_url'),
         baseId: 'librenms-shop'
     };
@@ -59,7 +59,7 @@
     function intializeStore() {
         var parts = getLocale();
         var country = parts[1];
-        spread_shop_config.locale = parts[0] + '_' + country;
+//         spread_shop_config.locale = parts[0] + '_' + country;
 
         if (! spread_shop_config.prefix) {
             setStore(country);
