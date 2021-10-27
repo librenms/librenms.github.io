@@ -14,15 +14,6 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% include menu.html %}
-                <li class="dropdown">
-                    <a id="locale-selector" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><span id="locale-display">EU</span><span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-header">Change Store</li>
-                        <li><a href="https://librenms.myspreadshop.net/">EU</a></li>
-                        <li><a href="#" onclick="changeStore('NA')">NA</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -30,72 +21,38 @@
     <!-- /.container-fluid -->
 </nav>
 
+<div id="visit-eu" style="display: none;">
+        <a href="https://librenms.myspreadshop.net"><i class="fa fa-exclamation-circle"></i> Want to deliver to Europe?  Checkout out our European shop</a>
+        <span class="close-button" title="Don't show this again" onclick="hideEu()">
+            <i class="fa fa-times fa-lg"></i>
+        </span>
+</div>
 
 <div id="librenms-shop">
 </div>
 
 <script>
-    const eu_store = 'https://librenms.myspreadshop.net';
-    const na_store = 'https://librenms.myspreadshop.com';
-
     var spread_shop_config = {
         shopName: 'librenms',
-//         locale: 'en_EU',
-        prefix: na_store, // disable localStorage.getItem('store_url'),
+        locale: getLocale(),
+        prefix: 'https://librenms.myspreadshop.com',
         baseId: 'librenms-shop'
     };
 
-    const store_map = {
-        'NA': na_store,
-        'US': na_store,
-        'EU': eu_store,
-        'GB': eu_store,
-        'AU': na_store,
-        'CA': na_store,
-        'SE': eu_store,
-        'CH': eu_store
-    };
-
-    function intializeStore() {
-        var parts = getLocale();
-        var country = parts[1];
-//         spread_shop_config.locale = parts[0] + '_' + country;
-
-//         if (! spread_shop_config.prefix) {
-//             setStore(country);
-//         }
-        
-        if (spread_shop_config.prefix === na_store) {
-            document.getElementById('locale-display').innerText = 'NA';
-        } else {
-            // redirect to external store for now
-            document.getElementById('locale-display').innerText = 'EU';
-            location.href = eu_store;
-        }
-
-        $.getScript(spread_shop_config.prefix + '/shopfiles/shopclient/shopclient.nocache.js');
-    }
-
-    function changeStore(country) {
-        document.getElementById('locale-display').innerText = country;
-        setStore(country)
-
-        location.reload();
-    }
-
-    function setStore(country) {
-        spread_shop_config.prefix = country in store_map ? store_map[country] : eu_store;
-        localStorage.setItem('store_url', spread_shop_config.prefix);
+    if (localStorage.getItem('hide_eu') !== 'hide') {
+        document.getElementById('visit-eu').style = 'display: block;'
     }
 
     function getLocale() {
         if (navigator.languages !== undefined)
-            return navigator.languages[0].split(/[-_]/, 2);
-        return navigator.language.split(/[-_]/, 2);
+            return navigator.languages[0];
+        return navigator.language;
     }
 
-    // set locale
-    intializeStore();
+    function hideEu() {
+        localStorage.setItem('hide_eu', 'hide');
+        document.getElementById('visit-eu').style = 'display: none;'
+    }
 
     document.arrive(".sprd-header__image", function () {
         document.unbindArrive(".sprd-header__image"); // don't infinite loop
@@ -105,5 +62,8 @@
         this.parentNode.replaceChild(new_element, this);
     });
 </script>
+
+<script type="text/javascript" src="https://librenms.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js"></script>
+
 </body>
 </html>
