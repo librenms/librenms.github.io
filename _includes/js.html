@@ -25,7 +25,7 @@
             var sponsors = $('#sponsors');
             data.forEach(function (sponsor) {
                 var link = '#';
-                if (sponsor.isActive == true)
+                if (sponsor.isActive == true) {
                   if (sponsor.website) {
                       link = sponsor.website;
                   } else if (sponsor.twitter) {
@@ -39,14 +39,14 @@
                   el += '</div>';
   
                   sponsors.append(el);
-                )
+                }
             });
         });
         $.get('https://opencollective.com/librenms/tiers/backers/all.json', function (data) {
             var backers = $('#backers');
             data.forEach(function (backer) {
                 var link = '#';
-                if (backer.isActive == true)
+                if (backer.isActive == true) {
                   if (backer.website) {
                       link = backer.website;
                   } else if (backer.twitter) {
@@ -58,7 +58,7 @@
                   el += '</a></div>';
   
                   backers.append(el);
-                )
+                }
             });
         });
     });
